@@ -1,15 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <p>This is my paragraph...!</p>
     <h1>This is my heading</h1>
     <h2>This is another paragraph</h2>
     <div>This is a (div)</div>
     <div>This is a (button)</div>
-</body>
+    <script>
+      let a = 1;
+      a = (a++ * 2 + ++a * 2 + a-- * 2) / (a++ * 3);
+      a = a++;
+      let b = ++a * 2 + --a * 2 - a-- * 3;
+      b = (--b * 2 + b++ * 3) / (b-- * 4);
+      console.log(a++ * 5/ 2);
+      console.log(b++ * 5 / 2);
+      let z = 1;
+      console.log(z++ * 5 + ++z + z++);
+    </script>
+  </body>
 </html>
